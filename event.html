@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <h1>-:EVENT CALENDER:-</h1>
+    <br />
+    <table border="2">
+      <caption> JANUARY</caption>
+      <thead>
+    <tr>
+    <TH>ACTIVITY</TH>
+    <th>DATE</th>
+    <th>TIME</th>
+    <th>VENUE</th>
+    </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+      <td>Singing Compitition</td>
+      <td>(10/1/26)</td>
+      <td>6:00PM</td>
+      <td>Hera Hall</td>
+      </tr>
+
+      <tr>
+      <td>Dancing Compitition</td>
+      <td>(15/1/26)</td>
+      <td>6:00PM</td>
+      <td>Hera Hall</td>
+      <tr>
+      
+      <tr>
+      <td>Poetry Compitition</td>
+      <td>(20/1/26)</td>
+      <td>6:00PM</td>
+      <td>Hera Hall</td>
+      <tr>
+     </tbody>
+    </table>
+
+    <hr>
+
+    <h2>REGISTRATION SECTION</h2>
+    <form action="/action.php">
+      <input type="text" placeholder="Name">
+      <br/>
+      <input type="text" placeholder="E-Mail">
+      <br/>
+      <input type="text" placeholder="Mobile number">
+      <br/>
+      Select Branch:
+    <select name="Branch" id="Branch">
+      <option value="-Select-">-Select-</option>
+      <option value="CSE">CSE</option>
+      <option value="EE">EE</option>
+      <option value="ECE">ECE</option>
+      <option value="ME">ME</option>
+      <option value="CE">CE</option>
+      <option value="BT">BT</option>
+      <option value="IT">IT</option>
+      <option value="Meta">Meta</option>
+      <option value="MCA">MCA</option>
+    </select>
+    <br/>
+      
+      <h4>Select the compititions, you want to take part in:<h4>
+      <label for="Singing">
+        <input type="checkbox" value="Singing"  name="Select" id="101"> Singing
+      </label>
+
+      <label for="Dancing">
+        <input type="checkbox" value="Singing"  name="Select" id="102"> Dancing
+      </label>
+
+      <label for="Poetry">
+        <input type="checkbox" value="Singing"  name="Select" id="103"> poetry
+      </label>
+      <br/>
+      <hr>
+
+      <textarea name="Comment" id="202" placeholder="Comment" rows=5></textarea>
+
+      
+      
+      
+      
+    </form>
+    <br/>
+    <input type="submit" value="Submit">
+    <hr>
+</body>
+</html>
