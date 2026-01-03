@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* space between title & nav */
+    align-items: center;            /* vertical center */
+    padding: 1.5rem 2rem;
+    background-color: rgb(89, 153, 231);
+}
+.nav {
+    display: flex;
+    gap: 1.5rem; /* space between links */
+}
+.nav a {
+    text-decoration: none; /* remove default underline */
+    color: var(--text);
+    font-weight: 500;
+    transition: color 1.0s, text-decoration 1.0s;
+}
+
+.nav a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 1.5rem 0;
+}
+.btn {
+    display: inline-block;
+    background-color: var(--primary);
+    color: rgb(7, 3, 3);
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #343fb6;
+    transform: translateY(-2px);
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+h3 {
+    font-size: 1.0rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.container {
+    max-width: 900px;      
+    margin: 0 auto;     
+    padding: 2rem;        
+}
+
+section,
+article {
+    margin-bottom: 2rem;
+}
+article,
+.skills {
+    background-color: rgb(171, 198, 244);          /* box background */
+    padding: 1.5rem;                  /* inner spacing */
+    border-radius: 8px;               /* rounded corners */
+    box-shadow: 0 4px 10px rgba(10, 36, 161, 0.788); /* subtle shadow */
+    margin-bottom: 2rem;              /* spacing between boxes */
+}
